@@ -95,6 +95,17 @@
 		<option value="Operations - Change Request">Operations - Change Request</option>
 		</select>
 	</div>
+	<div class="input-group inputWithIcon">
+		<label>Effective Date<span class="required">*</span></label>
+	    <span class="dateInput dateOnlyInput"><input class="input-style date-style"  type="text"  id="txtDate"   readonly="readonly" name="00N3J000000haKA"
+          size="12" placeholder="mm/dd/yyyy" onchange="valideffdate()" required />
+		<i class="fa fa-calendar" aria-hidden="true"></i></span>
+		<label for="00N3J000000haKA" style="color: red; display: none;">*Required</label>
+	</div>
+	<div class="input-group">
+		<label>Reason for the change request<span class="required">*</span></label>	
+		<input class="input-style" id="00N3J000000haKK" maxlength="50" name="00N3J000000haKK" size="20" type="text" required />
+    </div>
 	</section>
 	<h4>Employee Pay Information</h4>
 	<section class="fields-wrapper">
@@ -115,13 +126,6 @@
 		<input class="input-style" id="00N3J000000haKI" maxlength="50" name="00N3J000000haKI" step='0.01' size="20" type="number"  />
     </div>
 	
-	<div class="input-group inputWithIcon">
-		<label>Effective Date<span class="required">*</span></label>
-	    <span class="dateInput dateOnlyInput"><input class="input-style date-style"  type="text"  id="txtDate"   readonly="readonly" name="00N3J000000haKA"
-          size="12" placeholder="mm/dd/yyyy" onchange="valideffdate()" required />
-		<i class="fa fa-calendar" aria-hidden="true"></i></span>
-		<label for="00N3J000000haKA" style="color: red; display: none;">*Required</label>
-	</div>
 		
 	</section>
 	<h4>Site Information</h4>
@@ -146,10 +150,7 @@
 		<label>Post Name</label>	
 		<input class="input-style" id="00N3J000000haKJ" maxlength="50" name="00N3J000000haKJ" size="20" type="text"  />
     </div>
-	<div class="input-group">
-		<label>Reason for the change request<span class="required">*</span></label>	
-		<input class="input-style" id="00N3J000000haKK" maxlength="50" name="00N3J000000haKK" size="20" type="text" required />
-    </div>
+	
 	</section>
 	
 	
